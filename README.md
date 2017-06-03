@@ -7,7 +7,7 @@ A: Constraint Propogation involves using local constraints in space to dramatica
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: Diagonal Sudoku can be solved adding an additional unit to sudoku, the diagonal. So that each diagonal entry has diagonal entries as their peers. That way we solve using this new constraint. 
+A: Diagonal Sudoku can be solved adding an additional unit to sudoku, the diagonal. So that each diagonal entry has diagonal entries as their peers. That way we solve using this new constraint. Each box along the diagonal now belongs to another unit and now has peers. The strategies in this case are elimination, only choice, and naked tiwns. We continue the elimination process of enforcing a constraint to search space until we find a solution.
 
 ### Install
 
